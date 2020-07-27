@@ -1,0 +1,13 @@
+.event-details{
+  text-align: left;
+}
+
+h1{
+  display: inline-block;
+}
+
+i.fas:hover{
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: ease-in-out 0.2s;
+}

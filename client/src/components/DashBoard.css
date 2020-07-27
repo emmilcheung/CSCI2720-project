@@ -1,0 +1,42 @@
+tbody tr{
+    cursor: pointer;
+    
+}
+
+tbody tr:hover{
+    background-color: rgb(223, 238, 223) !important;
+}
+
+td{
+    max-width: 200px;
+    word-wrap: break-word;
+}
+
+thead th:nth-child(-n+3){
+    cursor: pointer;
+}
+
+.page-link{
+    width: 50px;
+    text-align: center;
+}
+
+.page-input{
+    padding-left: 0;
+    padding-right: 0;
+    width:100px;
+}
+
+span.page-link{
+    cursor: pointer;
+}
+
+.current-page{
+    background-color: rgb(207, 207, 204);
+    color: white !important;
+}
+
+.search-form.hide {
+    display: none;
+    transition: ease-in-out 0.5;
+}

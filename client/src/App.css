@@ -1,0 +1,27 @@
+html,
+body{
+  margin:0;
+  padding:0;
+  height: 100%;
+}
+
+footer{
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  background-color: rgb(240, 240, 240);
+  position: fixed;
+  height: 30px;
+  bottom: 0px;
+}
+
+.loading {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+
+}
+
+.dropdown-item{
+  cursor: pointer;
+}
